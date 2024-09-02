@@ -1,6 +1,6 @@
 import logo from "../images/navbar/logos.png"
 import fecebook from "../images/navbar/fecebook.svg";
-import vector from "../images/navbar/vector.svg";
+import vector from "../images/navbar/Vector.svg";
 import telegram from "../images/navbar/telegram.svg";
 import phone from "../images/navbar/phone.svg";
 import {Link} from "react-router-dom"
