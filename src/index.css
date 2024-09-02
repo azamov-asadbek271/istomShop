@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Gilroy:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap');
+
+
+@layer components {
+    .con-align {
+        @apply max-w-[1340px] w-full px-5 mx-auto 
+    }
+
+}
+body {
+  font-family: 'Gilroy', sans-serif;
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.unbounded {
+    font-size: 40px;
+    line-height: 44px;
+    font-family: "Unbounded";
+}
