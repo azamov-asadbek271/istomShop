@@ -5,11 +5,11 @@ import { Navbar } from "../components";
 
 function HomeLayout() {
   return (
-    <div>
+    <div className="bg-orenj-clr">
       <nav className="con-align">
         <Navbar />
       </nav>
-      <main className="con-align">
+      <main className="con-align ">
         <Outlet />
       </main>
     </div>
